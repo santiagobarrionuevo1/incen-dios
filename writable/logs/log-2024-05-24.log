@@ -1,0 +1,12 @@
+CRITICAL - 2024-05-24 12:51:18 --> ErrorException: Cannot redeclare App\Controllers\vistas::productos()
+[Method: GET, Route: productos]
+in APPPATH\Controllers\vistas.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-24 12:51:25 --> ErrorException: Cannot redeclare App\Controllers\vistas::productos()
+[Method: GET, Route: /]
+in APPPATH\Controllers\vistas.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-24 12:51:29 --> ErrorException: Cannot redeclare App\Controllers\vistas::productos()
+[Method: GET, Route: /]
+in APPPATH\Controllers\vistas.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
