@@ -76,14 +76,14 @@
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">Detectores S.A.</a>
+    <a class="navbar-brand" href="index.php">Incen-Dios</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="/">Inicio</a>
+          <a class="nav-link" href="index.php">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="productos">Productos</a>
@@ -95,10 +95,7 @@
           <a class="nav-link" href="contacto">Contacto</a>
         </li>
         <li class="nav-item">
-          <button class="btn btn-warning btn-login" data-toggle="modal" data-target="#loginModal">Iniciar Sesión</button>
-        </li>
-        <li class="nav-item">
-          <button class="btn btn-outline-warning btn-register" data-toggle="modal" data-target="#registerModal">Registrarse</button>
+          <a type="submit" class="btn btn-warning" href="<?= base_url('login') ?>">Logueate</a>
         </li>
       </ul>
     </div>
@@ -192,4 +189,4 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-</html>
+</html> 
